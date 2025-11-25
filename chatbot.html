@@ -23,6 +23,7 @@
 
         function sendMessage() {
           const newChatMessages = [
+            //  here we create a copy of the array of the chats
             ...chatMessages,
             {
               message: inputText,
@@ -30,7 +31,8 @@
               id: crypto.randomUUID()
             }
           ]
-
+          
+          // set the chat messages.
           setChatMessages(newChatMessages);
 
 
