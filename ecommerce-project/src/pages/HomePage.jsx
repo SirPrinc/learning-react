@@ -6,6 +6,7 @@ import './HomePage.css';
 export function HomePage() {
   return (
     <>
+      <title>Ecommerce Webpage</title>
       <div className="header">
         <div className="left-section">
           <a href="index.html" className="header-link">
